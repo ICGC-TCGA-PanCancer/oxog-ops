@@ -1,14 +1,14 @@
 #!/usr/bin/perl -w
 use strict;
 
-# Symlink this script to the failed-jobs folder.  The script queries against GNOS for OxoG and minibam analyses for each donor.
+# Put this script to the failed-jobs folder.  The script queries against GNOS for OxoG and minibam analyses for each donor.
 # If both OxoG and minibam files are live in GNOS, then the script will move the JSON to the completed-jobs folder.
 # Otherwise, the JSON will stay here for debugging and requeuing.
 
 system("git pull");
 my @json = glob("*.json");
 my $repo = "gtrepo-osdc-icgc";
-my $mv_count;
+my $mv_count=0;
 
 foreach my $json (@json) {
   my ($project_code, $donor_id, $tmp) = split(/\./, $json);
