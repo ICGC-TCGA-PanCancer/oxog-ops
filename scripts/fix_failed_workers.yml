@@ -1,0 +1,43 @@
+---
+- hosts: workers
+  vars:
+    old_upload_url: 'https://gtrepo-osdc-icgc.annailabs.com'
+    new_upload_url: 'https://gtrepo-ebi.annailabs.com'
+
+  tasks:
+  - name: remove credentials and upload-prep directories
+    sudo: True
+    file: path={{ item }} state=absent
+    with_items:
+      - /datastore/credentials/
+      - /datastore/bam-upload-prep/
+      - /datastore/vcf-upload-prep/
+
+  - name: get oozie path
+    shell: ls -d /datastore/oozie-*
+    register: oozie_path
+
+  - name: remove job listings from state.json
+    lineinfile: dest={{ oozie_path.stdout }}/whitestar/state.json state=absent regexp={{ item }}
+    with_items:
+      - '18_copy_home_ubuntu_gnos_2'
+      - 's18_pull_git_repo_3'
+      - 's18_set_git_name_and_email_1'
+      - 's18_git_move_from_running-jobs_to_uploading-jobs_39'
+      - 's18_generate_analysis_files_for_BAM_upload_41'
+      - 's18_generate_analysis_files_for_VCF_upload_40'
+      - 's18_upload_BAM_results_43'
+      - 's18_upload_VCF_results_42'
+
+  - name: change uploadURL
+    lineinfile: dest={{ oozie_path.stdout }}/generated-scripts/{{ item }} regexp='(.*--gto-only --key /gnos.key --upload-url ){{ old_upload_url }}( --metadata-urls.*)' line='\1{{ new_upload_url }}\2' backup=yes backrefs=yes
+    with_items:
+      - s18_generate_analysis_files_for_VCF_upload_40.sh
+      - s18_generate_analysis_files_for_BAM_upload_41.sh
+
+  - name: get seqware INI file
+    shell: ls -1 /tmp/seqware*.ini
+    register: ini_file
+
+  - name: retry the workflow
+    shell: docker run --rm -v /datastore/:/datastore/ -v /workflows/Workflow_Bundle_OxoGWrapper_1.0.4_SeqWare_1.1.2/:/workflow/ -v /var/run/docker.sock:/var/run/docker.sock -v /home/ubuntu/.gnos/:/home/ubuntu/.gnos/ -v {{ ini_file.stdout }}:/ini pancancer/seqware_whitestar_pancancer:1.1.2-actual-java8 seqware workflow-run retry --working-dir {{ oozie_path.stdout }}
