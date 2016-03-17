@@ -24,5 +24,9 @@ foreach my $json (@json) {
   }
   print "OxoG in ". ($oxog_state||"not_uploaded") . " state. Minibam in ". ($minibam_state||"not_uploaded") . " state.  Not moving $json\n" if (($oxog_state !~ /live/) || ($minibam_state !~ /live/));
 }
-system("git commit -am commit -am \"Moved $mv_count jobs from failed-jobs to completed-jobs since both OxoG and minibam are live in GNOS\"");
-system("git push");
+
+print "$mv_count jobs have been moved from failed-jobs to completed-jobs\n\n";
+
+## Not sure if it's a good idea to automatically do git coommit and push here
+#system("git commit -am commit -am \"Moved $mv_count jobs from failed-jobs to completed-jobs since both OxoG and minibam are live in GNOS\"");
+#system("git push");
