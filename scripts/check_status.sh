@@ -2,7 +2,7 @@
 
 git pull
 echo
-for i in `echo oxog-aws-jobs oxog-collab-jobs oxog-tcga-jobs`
+for i in `echo oxog-aws-jobs oxog-collab-jobs oxog-tcga-jobs oxog-gtdownload-jobs`
 do
   echo $i
   cd $i
