@@ -1,0 +1,173 @@
+{
+    "associated_vcfs": [
+        {
+            "file_md5sum": "bd028d91ae60ac395de53989f9e950f8",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.broad-mutect-v3.20160222.somatic.snv_mnv.vcf.gz",
+            "file_size": 188782,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "bed9f188d01d46966100988f5885bfde",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.broad-snowman.20151120.somatic.indel.vcf.gz",
+            "file_size": 37565,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "50c8d14375beac0b0e1198516b7d5ef4",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.broad-dRanger_snowman.20151120.somatic.sv.vcf.gz",
+            "file_size": 11941309,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "b57ca96e7c2fc504febcf1f2ef6a6a9a",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.broad-snowman.20151120.somatic.sv.vcf.gz",
+            "file_size": 11489150,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "2c5ff9dc8f5a6b4646efd875792734a0",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.broad-dRanger.20151120.somatic.sv.vcf.gz",
+            "file_size": 140729,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "c57fae243a5e0c0be3bd333631a8ad55",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.dkfz-copyNumberEstimation_1-0-189-1-hpc.1511251324.somatic.cnv.vcf.gz",
+            "file_size": 57684,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "874a8f9f0867af27ca991cf7145711ed",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.dkfz-indelCalling_1-0-132-1-hpc.1511251324.somatic.indel.vcf.gz",
+            "file_size": 2549286,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "ea5e537c81f3e290e0940fc15f489524",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.dkfz-snvCalling_1-0-132-1-hpc.1511251324.somatic.snv_mnv.vcf.gz",
+            "file_size": 1623675,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "f978b66e819f6ec95c58d62df16626d7",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.embl-delly_1-0-0-preFilter-hpc.150605.somatic.sv.vcf.gz",
+            "file_size": 4828053,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "1bf06881ae02cbad2866ebe1f418ee3c",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.MUSE_1-0rc-vcf.20151120.somatic.snv_mnv.vcf.gz",
+            "file_size": 203741,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "7795fbeb4729ef4721bf4e4c92a9a04f",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.svcp_1-0-5.20150406.somatic.snv_mnv.vcf.gz",
+            "file_size": 2039453,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "f193c1ca54756e23b0b2addc47be2231",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.svcp_1-0-5.20150406.somatic.cnv.vcf.gz",
+            "file_size": 5257,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "e61c4219516e79723630bc4110c9cefc",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.svfix2_4-0-12.20160213.somatic.sv.vcf.gz",
+            "file_size": 253862,
+            "is_sumfin": false,
+            "object_id": ""
+        },
+        {
+            "file_md5sum": "940dc33338ab60e9bc347466c9e48cc7",
+            "file_name": "f6114c69-71a1-47d5-9b28-b0227b1872f7.svcp_1-0-5.20150406.somatic.indel.vcf.gz",
+            "file_size": 49612721,
+            "is_sumfin": false,
+            "object_id": ""
+        }
+    ],
+    "experiment": {
+        "aligned": true,
+        "library_strategy": "RNA-Seq",
+        "reference_genome": "GRCh37"
+    },
+    "indel_padding": 200,
+    "name": "job./Users/baminou/Documents/oxog-ops/oxog-gtdownload-jobs/completed-jobs/BRCA-US.d8d7a6c2-6427-4f47-968c-6c3affba4617.json",
+    "normal_bam": {
+        "aliquot_id": "8ee200e1-ea79-4af1-87c4-831a4b590ecb",
+        "file_md5sum": "229d86c3e8e39fcb91c3590416194a9b",
+        "file_name": "PCAWG.46b76580-ab31-4d29-9b6e-cb219d24f114.bam",
+        "file_size": 107178703541,
+        "is_sumfin": false,
+        "minibam": {
+            "access": "controlled",
+            "bai_file_name": "mini-229d86c3e8e39fcb91c3590416194a9b.bam.bai",
+            "bam_file_name": "mini-229d86c3e8e39fcb91c3590416194a9b.bam"
+        },
+        "object_id": "",
+        "sample": {
+            "donor": {
+                "gender": "unspecified",
+                "submitter_id": "d8d7a6c2-6427-4f47-968c-6c3affba4617"
+            },
+            "specimen": {
+                "class": "Normal",
+                "submitter_id": "64da7621-012a-479e-aea6-fd5af093cdcb",
+                "type": "Normal - blood derived"
+            },
+            "submitter_id": "8ee200e1-ea79-4af1-87c4-831a4b590ecb",
+            "type": "DNA"
+        },
+        "song_analysis_id": "aa6b0162-edc8-4ce6-9d54-afa3f0f10902",
+        "song_analysis_type": "sequencingRead"
+    },
+    "sample_submitter_id": "SA55281",
+    "snv_padding": 10,
+    "study_id": "BRCA-US",
+    "submitter_donor_id": "d8d7a6c2-6427-4f47-968c-6c3affba4617",
+    "sv_padding": 500,
+    "tumour_bams": [
+        {
+            "aliquot_id": "f6114c69-71a1-47d5-9b28-b0227b1872f7",
+            "file_md5sum": "6641327aa46eda070bd45940dd21d3a3",
+            "file_name": "PCAWG.734f4d36-312a-4dca-b627-f96cff88c09f.bam",
+            "file_size": 174737901967,
+            "is_sumfin": false,
+            "minibam": {
+                "access": "controlled",
+                "bai_file_name": "mini-6641327aa46eda070bd45940dd21d3a3.bam.bai",
+                "bam_file_name": "mini-6641327aa46eda070bd45940dd21d3a3.bam"
+            },
+            "object_id": "",
+            "oxog_score": 43.09,
+            "sample": {
+                "donor": {
+                    "gender": "unspecified",
+                    "submitter_id": "d8d7a6c2-6427-4f47-968c-6c3affba4617"
+                },
+                "specimen": {
+                    "class": "Tumour",
+                    "submitter_id": "1964addf-c524-4c72-b596-009235bad133",
+                    "type": "Primary tumour - solid tissue"
+                },
+                "submitter_id": "f6114c69-71a1-47d5-9b28-b0227b1872f7",
+                "type": "DNA"
+            },
+            "song_analysis_id": "c722e8ca-2589-4584-81af-25274471f7ea",
+            "song_analysis_type": "sequencingRead"
+        }
+    ]
+}
