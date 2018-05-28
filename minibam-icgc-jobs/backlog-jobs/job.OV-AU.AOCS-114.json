@@ -5,56 +5,56 @@
             "file_name": "d9e66fc5-9018-4568-b388-c5eb756f7823.broad-snowman.20160401.somatic.indel.vcf.gz",
             "file_size": 33766,
             "is_sumfin": false,
-            "object_id": "1640e8c8-48f8-5978-a65f-41407fe70810"
+            "object_id": "8cff63ae-94a7-5827-a776-7f86c1436494"
         },
         {
             "file_md5sum": "ec4cf715b874ddfd4d27930ec8514500",
             "file_name": "d9e66fc5-9018-4568-b388-c5eb756f7823.broad-snowman.20160401.somatic.sv.vcf.gz",
             "file_size": 220012,
             "is_sumfin": false,
-            "object_id": "619924d8-ad68-55e5-9a81-722c132e3dc9"
+            "object_id": "f818a6a4-347d-5c89-8d50-c5c6ca761fce"
         },
         {
             "file_md5sum": "edaa5ee594ff8baf79708ec0de78aad3",
             "file_name": "d9e66fc5-9018-4568-b388-c5eb756f7823.broad-mutect-v3.20160401.somatic.snv_mnv.vcf.gz",
             "file_size": 249066,
             "is_sumfin": false,
-            "object_id": "9958cca3-3202-57e4-a25a-efa37ecb5f3f"
+            "object_id": "2eb0569d-1186-576d-b1f1-afcd8429693c"
         },
         {
             "file_md5sum": "7f80ed347327f540c3e28c18a95ec9e0",
             "file_name": "d9e66fc5-9018-4568-b388-c5eb756f7823.dkfz-copyNumberEstimation_1-0-189-hpc.1510221050.somatic.cnv.vcf.gz",
             "file_size": 68669,
             "is_sumfin": false,
-            "object_id": "12ebc13f-c5de-5ec3-ab53-2df7c057f6a2"
+            "object_id": "5fce06c3-1397-57f8-ae3c-70a044a0b74e"
         },
         {
             "file_md5sum": "228d5ce681011118730c8abe8e3f8556",
             "file_name": "d9e66fc5-9018-4568-b388-c5eb756f7823.dkfz-indelCalling_1-0-132-1-hpc.1510221050.somatic.indel.vcf.gz",
             "file_size": 1473214,
             "is_sumfin": false,
-            "object_id": "5a69a2bf-c319-5f81-bad2-2974bf551cff"
+            "object_id": "b8b8c38a-f55b-54fb-9cec-d2bf7e3073d0"
         },
         {
             "file_md5sum": "ac7952638041485a5b43352d2afab381",
             "file_name": "d9e66fc5-9018-4568-b388-c5eb756f7823.dkfz-snvCalling_1-0-132-1-hpc.1510221050.somatic.snv_mnv.vcf.gz",
             "file_size": 643566,
             "is_sumfin": false,
-            "object_id": "ac5ee3ee-9165-52a0-af77-9f896bf023de"
+            "object_id": "16b18e50-193c-5e1b-ac86-bfc519cad383"
         },
         {
             "file_md5sum": "39ea45d29cadd1d4b35bcaa5dfa70b7d",
             "file_name": "d9e66fc5-9018-4568-b388-c5eb756f7823.embl-delly_1-0-0-preFilter-hpc.150721.somatic.sv.vcf.gz",
             "file_size": 42963,
             "is_sumfin": false,
-            "object_id": "ff8fca17-f3f7-5d12-bb33-029fd3fed1b4"
+            "object_id": "8a2629a6-4743-5a04-93d3-5e826bac262b"
         },
         {
             "file_md5sum": "e7cccf29d23eadf05c9df41c89752835",
             "file_name": "d9e66fc5-9018-4568-b388-c5eb756f7823.MUSE_1-0rc-vcf.20160401.somatic.snv_mnv.vcf.gz",
             "file_size": 206045,
             "is_sumfin": false,
-            "object_id": "fc4c7dbb-5256-5618-bd3b-286697a8fcaa"
+            "object_id": "a095fa7a-7dc9-5c9d-8ff8-1adee04268d1"
         },
         {
             "file_md5sum": "275db8efaaecfec4a2e1fd87e889675a",
@@ -83,15 +83,22 @@
             "file_size": 48793334,
             "is_sumfin": false,
             "object_id": "0f199e33-d9cc-581f-a40e-de57619980ff"
+        },
+        {
+            "file_md5sum": "514f79c17e341ac564a179e18aaa67f3",
+            "file_name": "d9e66fc5-9018-4568-b388-c5eb756f7823.smufin.20160203.somatic.indel.vcf.gz",
+            "file_size": "30485",
+            "is_smufin": true,
+            "object_id": null
         }
     ],
     "experiment": {
         "aligned": true,
-        "library_strategy": "RNA-Seq",
+        "library_strategy": "WGS",
         "reference_genome": "GRCh37"
     },
     "indel_padding": 200,
-    "name": "job./Users/baminou/Documents/oxog-ops/oxog-collab-jobs/completed-jobs/OV-AU.AOCS-114.json",
+    "name": "OV-AU.AOCS-114.json",
     "normal_bam": {
         "aliquot_id": "0721b45b-87fd-4355-a7d5-9c0bb28b0ddd",
         "file_md5sum": "edeee1fb5c0921a21b2641ef0372cf80",
@@ -117,7 +124,7 @@
             "submitter_id": "AOCS-114-5-2",
             "type": "DNA"
         },
-        "song_analysis_id": "92731ac0-d9ed-4b4a-8366-fab7adf57a65",
+        "song_analysis_id": "312bbb85-0809-4f19-94bd-52eb5688a18c",
         "song_analysis_type": "sequencingRead"
     },
     "sample_submitter_id": "SA505938",
@@ -152,7 +159,7 @@
                 "submitter_id": "AOCS-114-1-8",
                 "type": "DNA"
             },
-            "song_analysis_id": "949aac29-750a-47fb-b469-2176a2db3f39",
+            "song_analysis_id": "865e7c2a-5556-4dd4-b4b2-c83914f22124",
             "song_analysis_type": "sequencingRead"
         }
     ]

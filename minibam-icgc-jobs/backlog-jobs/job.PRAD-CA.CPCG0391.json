@@ -5,56 +5,56 @@
             "file_name": "4e596add-a7c5-4617-9649-b4ac6612e39c.broad-mutect-v3.20160401.somatic.snv_mnv.vcf.gz",
             "file_size": 25282,
             "is_sumfin": false,
-            "object_id": "c212714f-c0b9-5530-b259-c1b3b2c712c3"
+            "object_id": "ae806368-8f33-5ee0-be1c-5d970eefbb71"
         },
         {
             "file_md5sum": "f175ee80e1028a6ff97cae985937b856",
             "file_name": "4e596add-a7c5-4617-9649-b4ac6612e39c.broad-snowman.20160401.somatic.sv.vcf.gz",
             "file_size": 53093,
             "is_sumfin": false,
-            "object_id": "5fe673a6-5a16-55bf-931d-b4d3794367dc"
+            "object_id": "d8550098-f9aa-5593-9667-e7a32108ff0c"
         },
         {
             "file_md5sum": "7ce7aa6ef34a9037bc867c53a913c434",
             "file_name": "4e596add-a7c5-4617-9649-b4ac6612e39c.broad-snowman.20160401.somatic.indel.vcf.gz",
             "file_size": 37082,
             "is_sumfin": false,
-            "object_id": "1f640094-e3c5-509c-9879-feb98f59436d"
+            "object_id": "9e14225b-65cb-5ac2-b899-5da6f369d6af"
         },
         {
             "file_md5sum": "12bb3649a531b693b45f09a3a69826c8",
             "file_name": "4e596add-a7c5-4617-9649-b4ac6612e39c.embl-delly_1-0-0-preFilter.20150814.somatic.sv.vcf.gz",
             "file_size": 17386,
             "is_sumfin": false,
-            "object_id": "34fcc5f3-bb5e-5a10-bc08-df8817355ec5"
+            "object_id": "e11f9b8f-0d14-51fa-ab44-b3993ce38e2d"
         },
         {
             "file_md5sum": "4d4b4b655fc01ad67b6b564a5d43804a",
             "file_name": "4e596add-a7c5-4617-9649-b4ac6612e39c.dkfz-copyNumberEstimation_1-0-189-hpc-fix.1511130324.somatic.cnv.vcf.gz",
             "file_size": 20835,
             "is_sumfin": false,
-            "object_id": "be862f38-3689-5978-9c2d-41239e602ad3"
+            "object_id": "48200d35-9918-53d8-9ba3-e53f2bd64e80"
         },
         {
             "file_md5sum": "de7a7607f97db9d2b38ccf0a5809ee5a",
             "file_name": "4e596add-a7c5-4617-9649-b4ac6612e39c.dkfz-indelCalling_1-0-132-1.20150814.somatic.indel.vcf.gz",
             "file_size": 10150542,
             "is_sumfin": false,
-            "object_id": "258deebb-f754-57e8-bc93-16c9dcf11b55"
+            "object_id": "cdc5e2b9-6394-50d9-878d-a4da27b72acd"
         },
         {
             "file_md5sum": "c91a4ef0ef25877639adc879633bb1f1",
             "file_name": "4e596add-a7c5-4617-9649-b4ac6612e39c.dkfz-snvCalling_1-0-132-1.20150814.somatic.snv_mnv.vcf.gz",
             "file_size": 1134363,
             "is_sumfin": false,
-            "object_id": "0b4bc8a2-ab33-5c3e-a91f-7a58fd42226d"
+            "object_id": "165a757d-6bac-5c6e-b072-13a945ed7763"
         },
         {
             "file_md5sum": "9d4645b55717ddd9f648f8cce3033af9",
             "file_name": "4e596add-a7c5-4617-9649-b4ac6612e39c.MUSE_1-0rc-vcf.20160401.somatic.snv_mnv.vcf.gz",
             "file_size": 146802,
             "is_sumfin": false,
-            "object_id": "826b5b2e-1857-5019-ac48-445b58b6e76c"
+            "object_id": "739b2351-b9f3-5099-a021-65a940ad9966"
         },
         {
             "file_md5sum": "6d659673cea06487b7b451bd63f54ca9",
@@ -83,6 +83,13 @@
             "file_size": 67058440,
             "is_sumfin": false,
             "object_id": "2680224e-442b-5bac-a994-25a0e857fe21"
+        },
+        {
+            "file_md5sum": "5e9b705db1d06699691686f4b05474e1",
+            "file_name": "4e596add-a7c5-4617-9649-b4ac6612e39c.smufin.20160114.somatic.indel.vcf.gz",
+            "file_size": "57519",
+            "is_smufin": true,
+            "object_id": null
         }
     ],
     "experiment": {
@@ -91,7 +98,7 @@
         "reference_genome": "GRCh37"
     },
     "indel_padding": 200,
-    "name": "job./Users/baminou/Documents/oxog-ops/oxog-collab-jobs/completed-jobs/PRAD-CA.CPCG0391.json",
+    "name": "PRAD-CA.CPCG0391.json",
     "normal_bam": {
         "aliquot_id": "64bff266-35c9-4e09-b770-66a24e6549b8",
         "file_md5sum": "6cbc428b15e5c0409ca212a7a2b1d432",
@@ -117,7 +124,7 @@
             "submitter_id": "CPCG0391-B1",
             "type": "DNA"
         },
-        "song_analysis_id": "011f4b31-e7b1-4445-a8a5-f59b0ac281ef",
+        "song_analysis_id": "4c1338d5-f810-490c-874b-7f9a2c7fd2a7",
         "song_analysis_type": "sequencingRead"
     },
     "sample_submitter_id": "SA530636",
@@ -152,7 +159,7 @@
                 "submitter_id": "CPCG0391-F1",
                 "type": "DNA"
             },
-            "song_analysis_id": "6c731dd3-aaaa-4e71-b54d-57021789fbd4",
+            "song_analysis_id": "5778c87e-4397-46c2-a239-0466fae9eddd",
             "song_analysis_type": "sequencingRead"
         }
     ]
